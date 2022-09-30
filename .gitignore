@@ -1,3 +1,5 @@
 /.venv/
 /.idea/
 /frontend/build
+/frontend/.yarn/cache
+/frontend/.yarn/install-state.gz
