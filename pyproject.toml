@@ -6,9 +6,9 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-fastapi = {extras = ["uvicorn"], version = "^0.92.0"}
 aiofiles = "^22.1.0"
 uvicorn = "^0.20.0"
+litestar = "^2.0.0b2"
 
 [tool.poetry.dev-dependencies]
 
