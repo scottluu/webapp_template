@@ -24,13 +24,13 @@ files = [
 
 [[package]]
 name = "anyio"
-version = "4.3.0"
+version = "4.4.0"
 description = "High level compatibility layer for multiple asynchronous event loop implementations"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "anyio-4.3.0-py3-none-any.whl", hash = "sha256:048e05d0f6caeed70d731f3db756d35dcc1f35747c8c403364a8332c630441b8"},
-    {file = "anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"},
+    {file = "anyio-4.4.0-py3-none-any.whl", hash = "sha256:c1b2d8f46a8a812513012e1107cb0e68c17159a7a594208005a57dc776e1bdc7"},
+    {file = "anyio-4.4.0.tar.gz", hash = "sha256:5aadc6a1bbb7cdb0bede386cac5e2940f5e2ff3aa20277e991cf028e0585ce94"},
 ]
 
 [package.dependencies]
@@ -44,13 +44,13 @@ trio = ["trio (>=0.23)"]
 
 [[package]]
 name = "certifi"
-version = "2024.2.2"
+version = "2024.6.2"
 description = "Python package for providing Mozilla's CA Bundle."
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"},
-    {file = "certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"},
+    {file = "certifi-2024.6.2-py3-none-any.whl", hash = "sha256:ddc6c8ce995e6987e7faf5e3f1b02b302836a0e5d98ece18392cb1a36c72ad56"},
+    {file = "certifi-2024.6.2.tar.gz", hash = "sha256:3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"},
 ]
 
 [[package]]
@@ -80,13 +80,13 @@ files = [
 
 [[package]]
 name = "faker"
-version = "25.1.0"
+version = "25.9.1"
 description = "Faker is a Python package that generates fake data for you."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "Faker-25.1.0-py3-none-any.whl", hash = "sha256:24e28dce0b89683bb9e017e042b971c8c4909cff551b6d46f1e207674c7c2526"},
-    {file = "Faker-25.1.0.tar.gz", hash = "sha256:2107618cf306bb188dcfea3e5cfd94aa92d65c7293a2437c1e96a99c83274755"},
+    {file = "Faker-25.9.1-py3-none-any.whl", hash = "sha256:f1dc27dc8035cb7e97e96afbb5fe1305eed6aeea53374702cbac96acfe851626"},
+    {file = "Faker-25.9.1.tar.gz", hash = "sha256:0e1cf7a8d3c94de91a65ab1e9cf7050903efae1e97901f8e5924a9f45147ae44"},
 ]
 
 [package.dependencies]
@@ -161,13 +161,13 @@ files = [
 
 [[package]]
 name = "litestar"
-version = "2.8.3"
+version = "2.9.0"
 description = "Litestar - A production-ready, highly performant, extensible ASGI API Framework"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "litestar-2.8.3-py3-none-any.whl", hash = "sha256:bef5e8592b1afba24306f9a5834d84cef89826b12f58a97d3099cf49e2f3767d"},
-    {file = "litestar-2.8.3.tar.gz", hash = "sha256:3764eef3885b331bfb15c478a2b9e2bc1980741ff58bd5512d599436f669549c"},
+    {file = "litestar-2.9.0-py3-none-any.whl", hash = "sha256:25235ad99f08807e633347fa509dcf5989153bde9b6a82e521b1f056af33becc"},
+    {file = "litestar-2.9.0.tar.gz", hash = "sha256:bea384c9ddae74bcb0d96ecb6dc1b51f8a13d50173cdfd56bfd2627ede505154"},
 ]
 
 [package.dependencies]
@@ -188,7 +188,7 @@ attrs = ["attrs"]
 brotli = ["brotli"]
 cli = ["jsbeautifier", "uvicorn[standard]", "uvloop (>=0.18.0)"]
 cryptography = ["cryptography"]
-full = ["advanced-alchemy (>=0.2.2,<0.9.0)", "annotated-types", "attrs", "brotli", "cryptography", "email-validator", "fast-query-parsers (>=1.0.2)", "jinja2", "jinja2 (>=3.1.2)", "jsbeautifier", "mako (>=1.2.4)", "minijinja (>=1.0.0)", "opentelemetry-instrumentation-asgi", "piccolo", "picologging", "prometheus-client", "pydantic", "pydantic-extra-types", "python-jose", "redis[hiredis] (>=4.4.4)", "structlog", "uvicorn[standard]", "uvloop (>=0.18.0)"]
+full = ["advanced-alchemy (>=0.2.2)", "annotated-types", "attrs", "brotli", "cryptography", "email-validator", "fast-query-parsers (>=1.0.2)", "jinja2", "jinja2 (>=3.1.2)", "jsbeautifier", "mako (>=1.2.4)", "minijinja (>=1.0.0)", "opentelemetry-instrumentation-asgi", "piccolo", "picologging", "prometheus-client", "pydantic", "pydantic-extra-types", "python-jose", "redis[hiredis] (>=4.4.4)", "structlog", "uvicorn[standard]", "uvloop (>=0.18.0)"]
 jinja = ["jinja2 (>=3.1.2)"]
 jwt = ["cryptography", "python-jose"]
 mako = ["mako (>=1.2.4)"]
@@ -199,7 +199,7 @@ picologging = ["picologging"]
 prometheus = ["prometheus-client"]
 pydantic = ["email-validator", "pydantic", "pydantic-extra-types"]
 redis = ["redis[hiredis] (>=4.4.4)"]
-sqlalchemy = ["advanced-alchemy (>=0.2.2,<0.9.0)"]
+sqlalchemy = ["advanced-alchemy (>=0.2.2)"]
 standard = ["fast-query-parsers (>=1.0.2)", "jinja2", "jsbeautifier", "uvicorn[standard]", "uvloop (>=0.18.0)"]
 structlog = ["structlog"]
 
@@ -391,13 +391,13 @@ files = [
 
 [[package]]
 name = "polyfactory"
-version = "2.15.0"
+version = "2.16.0"
 description = "Mock data generation factories"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "polyfactory-2.15.0-py3-none-any.whl", hash = "sha256:ff5b6a8742cbd6fbde9f81310b9732d5421fbec31916d6ede5a977753110fbe9"},
-    {file = "polyfactory-2.15.0.tar.gz", hash = "sha256:a3ff5263756ad74acf4001f04c1b6aab7d1197cbaa070352df79573a8dcd85ec"},
+    {file = "polyfactory-2.16.0-py3-none-any.whl", hash = "sha256:168d8e50b77e91e35e691e8b3eedac43d7e423a6857fa26d473def96d53f0ecf"},
+    {file = "polyfactory-2.16.0.tar.gz", hash = "sha256:03d8c706b70c4782ac8e637d0f6ab52760a7d11b712da5936a95a8f7022b2688"},
 ]
 
 [package.dependencies]
@@ -631,13 +631,13 @@ jupyter = ["ipywidgets (>=7.5.1,<9)"]
 
 [[package]]
 name = "rich-click"
-version = "1.8.1"
+version = "1.8.3"
 description = "Format click help output nicely with rich"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "rich_click-1.8.1-py3-none-any.whl", hash = "sha256:0cf0bf84404e78379bd2722db88cb07ffd0535440e20a05943d5b02249d90f8a"},
-    {file = "rich_click-1.8.1.tar.gz", hash = "sha256:73c2ec88a66d7bf6b8c32783539d1c9c92c7c75847f14186092d27f83b206e8a"},
+    {file = "rich_click-1.8.3-py3-none-any.whl", hash = "sha256:636d9c040d31c5eee242201b5bf4f2d358bfae4db14bb22ec1cafa717cfd02cd"},
+    {file = "rich_click-1.8.3.tar.gz", hash = "sha256:6d75bdfa7aa9ed2c467789a0688bc6da23fbe3a143e19aa6ad3f8bac113d2ab3"},
 ]
 
 [package.dependencies]
@@ -673,13 +673,13 @@ files = [
 
 [[package]]
 name = "typing-extensions"
-version = "4.11.0"
+version = "4.12.2"
 description = "Backported and Experimental Type Hints for Python 3.8+"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "typing_extensions-4.11.0-py3-none-any.whl", hash = "sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a"},
-    {file = "typing_extensions-4.11.0.tar.gz", hash = "sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"},
+    {file = "typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"},
+    {file = "typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"},
 ]
 
 [[package]]
