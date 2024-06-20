@@ -9,6 +9,7 @@ python = "^3.12"
 aiofiles = "^22.1.0"
 uvicorn = "^0.20.0"
 litestar = "^2.0.0b2"
+pydantic = "^2.7.4"
 
 [tool.poetry.dev-dependencies]
 
