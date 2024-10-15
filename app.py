@@ -1,10 +1,5 @@
-from litestar import Litestar, get
+from litestar import Litestar
 
+from file_router import FILE_ROUTER
 
-@get("/")
-async def hello_world() -> dict[str, str]:
-    """Handler function that returns a greeting dictionary."""
-    return {"hello": "world"}
-
-
-app = Litestar(route_handlers=[hello_world])
+app = Litestar(route_handlers=[FILE_ROUTER])
