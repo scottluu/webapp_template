@@ -1,26 +1,26 @@
 FROM node:current-bullseye-slim as node-builder
 
-WORKDIR /caffiends/frontend
+WORKDIR /app/frontend
 
 COPY frontend .
 
-WORKDIR /caffiends/frontend
+WORKDIR /app/frontend
 
-RUN yarn && yarn build
+RUN npm i && npm run build
 
 
-FROM python:3.10.7-slim-bullseye
+FROM python:3.12.5-slim-bullseye
 
-WORKDIR /caffiends
+WORKDIR /app
 
 RUN python -m venv venv && ./venv/bin/pip install poetry
-COPY app.py .
 COPY poetry.lock .
 COPY pyproject.toml .
 RUN ./venv/bin/poetry install
+COPY app.py .
 
-WORKDIR /caffiends/frontend/build
+WORKDIR /app/frontend/dist
 
-COPY --from=node-builder /caffiends/frontend/build .
+COPY --from=node-builder /app/frontend/dist .
 
 CMD ./venv/bin/uvicorn app:app --port 8080
