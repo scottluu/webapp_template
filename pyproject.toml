@@ -8,7 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.12"
 aiofiles = "^24.1.0"
 uvicorn = "^0.31.1"
-litestar = "^2.12.1"
+litestar = "^2.14.0"
 pydantic = "^2.9.2"
 
 [tool.poetry.dev-dependencies]
